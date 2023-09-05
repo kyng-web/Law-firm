@@ -36,10 +36,10 @@
 
             <nav class="navbar navbar-expand-lg" id="navbar">
                   <div class="container-fluid">
-                        <i><a class="navbar-brand ps-3 text-light" href="#" style="font-size: 25px;">Law-Firm</a></i>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <i><a class="navbar-brand ps-3 text-light" href="#" style="font-size: 30px;">Law <span style="color: red;">Firm</span></a></i>
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> -->
+                              <i class="navbar-toggler fa-solid fa-bars" style="color: #ffffff; font-size: 33px; cursor: pointer;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"></i>
+                        <!-- </button> -->
                         <div class="offcanvas offcanvas-end " id="offcanvasNavbar" data-bs-scroll="true">
                               <ul class="navbar-nav offcanvas-body" id="navbarNav">
                                     <li class="nav-item">
@@ -47,7 +47,7 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                           <a class="text-light nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                          <ul class="dropdown-menu">
+                                          <ul class="dropdown-menu" id="firstDropDown">
                                                 <li><a class="dropdown-item text-light" href="#">Business Law</a></li>
                                                 <li><a class="dropdown-item text-light" href="#">Bankruptcy Law</a></li>
                                                 <li><a class="dropdown-item text-light" href="#">Criminal Law</a></li>
@@ -65,12 +65,20 @@
                                     <li class="nav-item">
                                           <a class="text-light nav-link" href="#">Why Us</a>
                                     </li>
-                                    <li class="nav-item">
-                                          <a class="text-light nav-link" href="#">Locations</a>
+                                    <li class="nav-item dropdown">
+                                          <a class="text-light nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Locations</a>
+                                          <ul class="dropdown-menu" id="secondDropDown">
+                                                <li><a class="dropdown-item text-light" href="#">New York, NY</a></li>
+                                                <li><a class="dropdown-item text-light" href="#">Miami, Fl</a></li>
+                                                <li><a class="dropdown-item text-light" href="#">Atlanta, Ga</a></li>
+                                                <li><a class="dropdown-item text-light" href="#">Houston, Tx</a></li>
+                                                <li><a class="dropdown-item text-light" href="#">Beverly Hills, Ca</a></li>
+
+                                          </ul>
                                     </li>
                                     <li class="nav-item">
                                           <button class="text-light contact-button">
-                                                <a class="nav-link text-light" href="#">Contact</a>
+                                                <a class="nav-link text-light" href="#" style="border: none; !important">Contact</a>
                                           </button>
                                     </li>
                               </ul>
@@ -80,7 +88,12 @@
 
             <!---------------------------- Navbar ---------------------------->
 
-            <!-- <div id="firm-introduction"></div> -->
+            <!-- <div id="firm-introduction" style="margin-left: 30px;">
+                  <h1 class="text-light">#1 Law Firm in New York City</h1>
+                  <h3 class="text-light">Most Voted Firm since 2020</h3>
+            </div> -->
+
+            <!----------------------- Firm Intro ----------------------------->
       
 
       </div>
