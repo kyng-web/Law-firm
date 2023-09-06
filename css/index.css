@@ -86,11 +86,14 @@ body{
       background-color: transparent;
 }
 
-.contact-button:hover{
-      background-color: black;
+#contactButton:hover{
+      background-color: black !important;
       transition: 0.7s;
-
+      border: none;
+      border-bottom: black !important;
 }
+
+
 
 .header-items{
       display: none;
@@ -100,6 +103,8 @@ body{
 #firm-introduction{
       width: 33%; 
       height: 200px; 
+      background-color: rgba(0, 0, 0, 0.41); 
+
       /* background-color: red;  */
       font-family: 'Antic Didone', serif;
       margin-top: auto;
@@ -116,7 +121,43 @@ body{
 
 }
 
-#reponsiveFirmRewards{
+#responsiveIntro{
+      width: 100%; 
+      height: 400px; 
+      /* background-color: ;  */
+      display: flex; 
+      justify-items: center; 
+      align-items: center; 
+      margin-top: 10%;
+      display: none;
+}
+
+#responsiveIntroChild{
+      width: 70%; 
+      height: max-content; 
+      background-color: rgba(0, 0, 0, 0.41); 
+      margin-left: 40px; 
+      font-family: 'Antic Didone', serif;
+      padding-bottom: 15px;
+      padding-top: 10px;
+}
+
+#intro-button{
+      border: 1px solid black; 
+      background-color: rgb(85, 85, 85); 
+      color: white; 
+      padding: 10px; 
+      width: 45%;
+}
+
+#intro-button:hover{
+      /* width: 100%; */
+      transition: 0.7s;
+      color: red;
+      background-color: black !important;
+}
+
+#reponsiveFirmAwards{
       width: 100%; 
       height: 130px; 
       background-color: black; 
@@ -172,6 +213,13 @@ body{
 }
 
 @media screen and (max-width: 991px){
+
+      .contain{
+            background-image: url(../images/sec-back3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+      }
 
       header{
             display: none;
@@ -232,8 +280,12 @@ body{
             display: none;
       }
 
-      #reponsiveFirmRewards{
-            display: block;
+      #responsiveIntro{
+            display: flex;
+      }
+
+      #reponsiveFirmAwards{
+            display: flex;
             
       }
 }
