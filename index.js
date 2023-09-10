@@ -33,6 +33,7 @@ const removeJustifyContent = () => {
       // let p = 0
 
      
+     
       // console.log(p)
       
 }
@@ -41,3 +42,4 @@ navbarScroll();
 removeJustifyContent();
 
 // Navbar scroll
+
