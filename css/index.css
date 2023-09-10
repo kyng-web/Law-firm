@@ -80,11 +80,9 @@ hr{
 
 #firstDropDown{
       width: 300px !important;
-      /* transition: 1s !important; */
       border-radius: 0 !important;
       margin-top: 20px !important;
       background-color: black !important;
-      /* transition: 3s !important; */
 }
 
 #secondDropDown{
@@ -124,41 +122,13 @@ hr{
 /* End of nav */
 
 #firm-introduction{
-      /* width: max-content;  */
-      /* height: max-content;  */
-      /* background-color: rgba(0, 0, 0, 0.41);  */
-      /* background-color: red;  */
       font-family: 'Antic Didone', serif;
       background-image: linear-gradient(to top left, black 50%, transparent 50%);
-      /* margin-top: auto; */
       padding-right: 30px;
-      /* margin-bottom: 30px; */
       align-self: baseline;
       margin-top: auto !important;
       margin-left: auto;
       float: right;
-      /* float: right !important; */
-}
-
-.firm-awards{
-      /* width: 100px; 
-      height: 80px;
-      padding-bottom: 30px; */
-      /* margin-left: 20px; */
-      /* margin-top: 30px; */
-      /* display: inline-block; */
-
-}
-
-#responsiveIntro{
-      /* width: 100%; 
-      height: 400px;  */
-      /* background-color: ;  */
-      /* display: flex;  */
-      /* justify-items: center;  */
-      /* align-items: center;  */
-      /* margin-top: 10%; */
-      /* display: none; */
 }
 
 #responsiveIntroChild{
@@ -168,7 +138,6 @@ hr{
       padding: 25px;
       margin-top: 11%;      
       margin-left: 50px;
-      /* margin-bottom: 60px; */
       font-family: 'Antic Didone', serif;
       float: left;
       padding-bottom: 15px;
@@ -186,30 +155,15 @@ hr{
 
 #intro-button:hover,
 #intro-button:focus {
-      /* transition: 0.7s; */
       border: 2px solid black; 
       color: rgb(246, 214, 154);
       box-shadow: inset 300px 0 0 0 black;
 }
 
-/* #intro-button:hover{
-      width: 100%;
-      transition: 0.7s linear;
-      color:rgb(246, 214, 154);
-      background-color: black !important;
-} */
-
-
 #reponsiveFirmAwards{
       width: 100%; 
       height: 130px; 
       background-color: rgb(202, 202, 202); 
-      /* margin-top: -50px; */
-      /* display: flex;  */
-      /* display: none; */
-      /* justify-content: center !important;  */
-      /* align-items: center !important; */
-
 }
 
 .responsive-awards{
@@ -220,29 +174,8 @@ hr{
       align-items: center;
 }
 
-.award-badges{
-      width: 100px; 
-      height: 80%; 
-      display: inline-block; 
-      /* background-color: pink; */
-      margin-top: 10px; 
-      /* margin: 0 auto !important; */
-      /* justify-content: center !important; */
-      /* align-self: center !important; */
-      margin-left: 70px;
-}
-
-
-
-
 /* End of heading page ,navbar, firm intro */
 
-
-
-
-
-
-background-image: linear-gradient(to top left, #e394a3 50%, #8dd6a6 50%)
 
 
 
@@ -317,6 +250,11 @@ background-image: linear-gradient(to top left, #e394a3 50%, #8dd6a6 50%)
 
       #responsiveIntro{
             display: flex;
+      }
+
+      #responsiveIntro{
+            width: 100%;
+            margin-left: 0;
       }
 
       #responsiveIntroChild{
