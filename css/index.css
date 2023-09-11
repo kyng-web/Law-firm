@@ -1,6 +1,6 @@
 body{
       scroll-behavior: smooth;
-      background-color: rgb(237, 237, 237) !important;
+      /* background-color: red !important; */
 }
 
 hr{
@@ -233,7 +233,56 @@ hr{
 }
 /* End of Introduction */
 
+#firmPracticesContainer{
+      width: 100%; 
+      height: 100vh;
+}
 
+.firm-practice{
+      width: 100%; 
+      height: 600px; 
+      /* background-color: black;  */
+      background-image: url(../images/handcuffs2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 40px; 
+      display: flex;
+}
+
+/* .firm-practice2{
+      width: 100%; 
+      height: 400px; 
+      background-color: blue;
+} */
+
+.practice{
+      width: 500px; 
+      height: 300px; 
+      background-color: white; 
+      margin-left: auto; 
+      margin-right: 13%;
+      /* display: flex; */
+      display: inline-flex; 
+      flex-direction: column;
+}
+
+.practice-child{
+      width: 100% !important; 
+      height: 90%; 
+      background-color: red;
+}
+
+.practice-button-wrapper{
+      /* background-color: black;  */
+      display: flex; 
+      margin-top: auto; 
+      margin-left: auto;
+}
+
+#practiceButtons{
+      height: 40px; 
+      display: flex;
+}
 
 
 
