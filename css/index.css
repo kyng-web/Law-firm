@@ -167,18 +167,20 @@ hr{
 
 /* End of heading page ,navbar, law firm intro */
 
+#introContainer{
+      background-color: #f8f8f8; 
+      width: 100%; 
+      height: 100vh;
+}
+
 .intro-wrapper{
       width: 100%; 
       height: 800px; 
-      /* background-color: black;  */
-      /* text-shadow: 0.5px 0.5px rgb(246, 214, 154); */
-      margin-top: 20px;
 }
 
 .intro-img1{
       width: 25%; 
       height: 500px; 
-      /* background-color: red;  */
       background-image: url(../images/intro1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -191,7 +193,6 @@ hr{
 .intro-img2{
       width: 25%; 
       height: 500px; 
-      /* background-color: aqua;  */
       background-image: url(../images/intro2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -206,7 +207,7 @@ hr{
       height: max-content; 
       margin-top: 10%;
       font-family: 'Antic Didone', serif;
-      /* background-color: pink;  */
+      font-weight: bold;
       float: right;
 }
 
@@ -221,13 +222,11 @@ hr{
       padding: 8px;
       color: black !important;
       background-color: transparent !important;
-      /* transition: 1s !important; */
       border: 2px solid black;
 }
 
 #readMoreButton:hover,
 #readMoreButton:focus {
-      /* border: 2px solid black;  */
       transition: 2s !important;
       color: rgb(246, 214, 154) !important;
       box-shadow: inset 300px 0 0 0 black;
@@ -248,7 +247,6 @@ hr{
       }
 
       .offcanvas-body{
-            /* width: 100%; */
             background-color: black !important;
       }
 
@@ -263,7 +261,6 @@ hr{
       .dropdown-menu{
             width: 100% !important;
             margin-top: 0 !important;
-            /* background-color: black !important; */
       }
 
       .contact-button{
@@ -273,7 +270,6 @@ hr{
       }
 
       .header-items{
-            /* margin-top: 30px; */
             display: block;
       }
 
@@ -285,7 +281,6 @@ hr{
       .header-items a:hover{
             color: rgb(136, 136, 136);
             transition: 0.7s;
-            /* text-decoration: none; */
       }
 
       #responsiveIntro{
@@ -327,7 +322,6 @@ hr{
       }
 
       .intro-img1{
-            /* width: 100%; */
             display: none;
             margin-left: 0;
       }
