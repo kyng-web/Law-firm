@@ -245,7 +245,7 @@ hr{
       background-image: url(../images/handcuffs2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      margin-top: 40px; 
+      /* margin-top: 40px;  */
       display: flex;
 }
 
@@ -276,6 +276,7 @@ hr{
 .practice-child{
       width: 100% !important; 
       height: 90%; 
+      margin-top: 30px;
       /* background-color: red; */
 }
 
@@ -289,6 +290,13 @@ hr{
 #practiceButtons{
       height: 40px; 
       display: flex;
+}
+
+#practiceNext, #practicePrev{
+      border: none;
+      background-color: transparent;
+      font-size: 20px;
+      /* animation: ease-in 3s; */
 }
 
 
