@@ -261,15 +261,22 @@ hr{
       background-color: white; 
       margin-left: auto; 
       margin-right: 13%;
+      padding-left: 10px;
       /* display: flex; */
       display: inline-flex; 
       flex-direction: column;
 }
 
+.practice-child h6{
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      /* background-color: pink;  */
+}
+
 .practice-child{
       width: 100% !important; 
       height: 90%; 
-      background-color: red;
+      /* background-color: red; */
 }
 
 .practice-button-wrapper{

@@ -21,25 +21,31 @@ const navbarScroll = () => {
       })
 }
 
-const removeJustifyContent = () => {
-      let navbarNav = document.getElementById('navbarNav');
+navbarScroll();
 
-      // if(window.innerWidth < 991){
-      //       console.log('yes');
-      // }else{
-      //       console.log('no')
-      // }
+// End of Navbar Scroll
+let slideIndex = 1;
 
-      // let p = 0
-
-     
-     
-      // console.log(p)
-      
+const nextSlide = (n) =>{
+      showSlides(slideIndex += n)
 }
 
-navbarScroll();
-removeJustifyContent();
+// const currentSlide = () => {
+//       showSlides(slideIndex = n)
+// }
 
-// Navbar scroll
+const showSlides = (n) => {
+      let slides = document.getElementsByClassName('practice-child');
+
+      if(n > slides.length){slideIndex = 1}
+      if(n < 1){slideIndex = slides.length}
+      for(i = 0; i < slides.length; i++){
+            slides[i].style.display = 'none';
+      }
+      
+      slides[slideIndex-1].style.display = "block";
+}
+
+showSlides(slideIndex);
+
 

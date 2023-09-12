@@ -156,17 +156,28 @@
       <div id="firmPracticesContainer">
             <div class="firm-practice">
                   <div class="practice">
-                        <div style="width: 100%; height: 50px; background-color: pink; ">Services</div>
-                        <div class="practice-child">
-                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid cumque reprehenderit tempora dicta quas necessitatibus reiciendis</p>
+                        <!-- <div id="practiceHeading">Services</div> -->
+                        <div class="practice-child" id="practiceChild">
+                              <h6>Criminal Law</h6>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid cumque reprehenderit tempora dicta quas necessitatibus reiciendis</p>
                         </div>
+                        <div class="practice-child" id="practiceChild" style="background-color: blue;">
+                              <h6>Criminal Law</h6>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid cumque reprehenderit tempora dicta quas necessitatibus reiciendis</p>
+                        </div>
+                        <div class="practice-child" id="practiceChild" style="background-color: pink;">
+                              <h6>Criminal Law</h6>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid cumque reprehenderit tempora dicta quas necessitatibus reiciendis</p>
+                         </div>
+                        <!-- End of Practice Child -->
                         <div class="practice-button-wrapper">
                               <div id="practiceButtons">
-                                    <button id="practiceNext">next</button>
+                                    <button id="practiceNext" onclick="nextSlide(-1)">prev</button>
                                     <p>0/1</p>
-                                    <button id="practicePrev">prev</button>
+                                    <button id="practicePrev" onclick="nextSlide(1)">next</button>
                               </div>
                         </div>
+                        <!-- End of practice button wraper -->
                   </div>
             </div>
 
