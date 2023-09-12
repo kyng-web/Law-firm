@@ -36,6 +36,7 @@ const nextSlide = (n) =>{
 
 const showSlides = (n) => {
       let slides = document.getElementsByClassName('practice-child');
+      // let slidesback = document.getElementById
       let currentSlide = document.getElementById('currentSlide');
 
       if(n > slides.length){slideIndex = 1}
@@ -46,9 +47,11 @@ const showSlides = (n) => {
       }
       
       slides[slideIndex-1].style.display = "block";
+      // slides[slideIndex-1].style.backgroundImage = 'url(../images/back4.jpeg)'
       // slides[slideIndex-1].style.transition = "3s";
 
       currentSlide.innerHTML = `${slideIndex}/5`
+
 
       
 }

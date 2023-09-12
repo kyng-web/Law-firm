@@ -168,9 +168,12 @@ hr{
 /* End of heading page ,navbar, law firm intro */
 
 #introContainer{
+      background-image: url(../images/back5.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
       background-color: #f8f8f8; 
       width: 100%; 
-      height: 100vh;
+      height: 80%;
 }
 
 .intro-wrapper{
@@ -184,6 +187,10 @@ hr{
       background-image: url(../images/intro1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+      /* position: fixed; */
+      /* transform: translate3d(0px, 4px, 0px) scale(1.3); */
+      /* will-change: transform; */
+      /* transition: transform 0.6s cubic-bezier(0, 0, 0, 1) 0s; */
       float: left; 
       margin-left: 30px; 
       margin-top: 10%;
@@ -206,8 +213,9 @@ hr{
       width: 43%; 
       height: max-content; 
       margin-top: 10%;
-      font-family: 'Antic Didone', serif;
-      font-weight: bold;
+      /* font-family: 'Antic Didone', serif; */
+      font-family: 'EB Garamond', serif;
+      /* font-weight: bold; */
       float: right;
 }
 
@@ -227,7 +235,7 @@ hr{
 
 #readMoreButton:hover,
 #readMoreButton:focus {
-      transition: 2s !important;
+      transition: 1s !important;
       color: rgb(246, 214, 154) !important;
       box-shadow: inset 300px 0 0 0 black;
 }
@@ -259,6 +267,7 @@ hr{
       width: 500px; 
       height: 300px; 
       background-color: white; 
+      margin-top: 40px;
       margin-left: auto; 
       margin-right: 13%;
       padding-left: 10px;
@@ -398,6 +407,10 @@ hr{
             width: 100%;
             padding-left: 30px;
             padding-right: 5px;
+      }
+
+      #readMoreButton{
+            width: 40%;
       }
 }
 
