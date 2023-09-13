@@ -448,9 +448,9 @@ hr{
 
       /* End of intro */
 
-      /* #firmPracticesContainer{
-            height: 300px;
-      } */
+      #firmPracticesContainer{
+            height: max-content;
+      }
 
       .firm-practice{
             height: max-content;
