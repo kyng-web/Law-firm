@@ -243,12 +243,12 @@ hr{
 
 #firmPracticesContainer{
       width: 100%; 
-      height: 100vh;
+      height: 90vh;
 }
 
 .firm-practice{
       width: 100%; 
-      height: 600px; 
+      height: 650px; 
       /* background-color: black;  */
       /* background-image: url(../images/handcuffs2.jpg); */
       background-size: cover;
@@ -444,6 +444,39 @@ hr{
 
       #readMoreButton{
             width: 40%;
+      }
+
+      /* End of intro */
+
+      /* #firmPracticesContainer{
+            height: 300px;
+      } */
+
+      .firm-practice{
+            height: max-content;
+      }
+
+      .practice{
+            width: 100%;
+            height: 100%;
+            background-image: url(../images/back5.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-color: black; */
+            margin: 0;
+      }
+
+      .case-description{
+            width: 80%;
+            font-size: 18px;
+      }
+
+      .cases{
+            font-size: 18px;
+      }
+
+      .case-arrows{
+            font-size: 19px;
       }
 }
 

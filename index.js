@@ -74,7 +74,7 @@ const showSlides = (n) => {
             break;
             case 5:
                   console.log(5)
-                  img.style.backgroundImage = "url('../images/statue.jpg')"
+                  img.style.backgroundImage = "url('../images/family.jpg')"
             break;
       }
 
