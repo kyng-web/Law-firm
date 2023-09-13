@@ -38,6 +38,10 @@ const showSlides = (n) => {
       let slides = document.getElementsByClassName('practice-child');
       // let slidesback = document.getElementById
       let currentSlide = document.getElementById('currentSlide');
+      const img = document.getElementById('firmPractice');
+      // const img2 =
+      // const img3 =
+      // const img4 =
 
       if(n > slides.length){slideIndex = 1}
       if(n < 1){slideIndex = slides.length}
@@ -47,10 +51,33 @@ const showSlides = (n) => {
       }
       
       slides[slideIndex-1].style.display = "block";
+      currentSlide.innerHTML = `${slideIndex}/5`
       // slides[slideIndex-1].style.backgroundImage = 'url(../images/back4.jpeg)'
       // slides[slideIndex-1].style.transition = "3s";
 
-      currentSlide.innerHTML = `${slideIndex}/5`
+      switch(slideIndex){
+            case 1:
+                  console.log(1)
+                  img.style.backgroundImage = "url('../images/handcuffs2.jpg')"
+            break;
+            case 2:
+                  console.log(2)
+                  img.style.backgroundImage = "url('../images/back.jpg')"
+            break;
+            case 3:
+                  console.log(3)
+                  img.style.backgroundImage = "url('../images/back2.jpeg')"
+            break;
+            case 4:
+                  console.log(4);
+                  img.style.backgroundImage = "url('../images/back3.webp')"
+            break;
+            case 5:
+                  console.log(5)
+                  img.style.backgroundImage = "url('../images/sec-back.jpg')"
+            break;
+      }
+
 
 
       
