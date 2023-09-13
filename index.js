@@ -58,23 +58,23 @@ const showSlides = (n) => {
       switch(slideIndex){
             case 1:
                   console.log(1)
-                  img.style.backgroundImage = "url('../images/handcuffs2.jpg')"
+                  img.style.backgroundImage = "url('../images/busniess.jpg')"
             break;
             case 2:
                   console.log(2)
-                  img.style.backgroundImage = "url('../images/back.jpg')"
+                  img.style.backgroundImage = "url('../images/bankruptcy.jpg')"
             break;
             case 3:
                   console.log(3)
-                  img.style.backgroundImage = "url('../images/back2.jpeg')"
+                  img.style.backgroundImage = "url('../images/handcuffs2.jpg')"
             break;
             case 4:
                   console.log(4);
-                  img.style.backgroundImage = "url('../images/back3.webp')"
+                  img.style.backgroundImage = "url('../images/tax.jpg')"
             break;
             case 5:
                   console.log(5)
-                  img.style.backgroundImage = "url('../images/sec-back.jpg')"
+                  img.style.backgroundImage = "url('../images/statue.jpg')"
             break;
       }
 
