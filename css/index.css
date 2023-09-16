@@ -154,7 +154,15 @@ hr{
 #membersIntro{
       width: 100%; 
       height: 130px; 
-      background-color: rgb(226, 226, 226); 
+      /* background-color: rgb(226, 226, 226);  */
+      background-image: linear-gradient(to bottom, rgb(226, 226, 226), transparent 90%) !important;
+}
+
+#membersIntro2{
+      width: 100%; 
+      height: 130px; 
+      /* background-color: rgb(226, 226, 226);  */
+      background-image: linear-gradient(to bottom, transparent, rgb(247, 247, 247) 90%) !important;
 }
 
 .responsive-members{
@@ -248,7 +256,7 @@ hr{
 
 .firm-practice{
       width: 100%; 
-      height: 650px; 
+      height: 100%; 
       /* background-color: black;  */
       /* background-image: url(../images/handcuffs2.jpg); */
       background-size: cover;
@@ -339,6 +347,16 @@ hr{
       /* top: calc(50% - 4px);
       left: -20px;
       transform: translateY(-50%) rotate(-45deg); */
+}
+
+/* End of Alf practices */
+
+#attorneys div{
+      width: 250px; 
+      height: 300px; 
+      background-color: red;
+      margin-left: 25px;
+      margin-top: 30px;
 }
 
 
@@ -448,6 +466,10 @@ hr{
 
       /* End of intro */
 
+      
+}
+
+@media screen and (max-width: 763px){
       #firmPracticesContainer{
             height: max-content;
       }

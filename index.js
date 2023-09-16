@@ -8,7 +8,7 @@ const navbarScroll = () => {
                   nav.style.backgroundColor = 'black';
                   nav.style.transition = '0.6s';
                   // navbar.style.transition = '0.6s';
-                  nav.style.position = 'sticky';
+                  nav.style.position = 'fixed';
                   nav.style.top = '0px'
                   // console.log('yes')
             }else if(window.scrollY === 0){
