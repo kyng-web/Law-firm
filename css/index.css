@@ -351,12 +351,49 @@ hr{
 
 /* End of Alf practices */
 
-#attorneys div{
+
+.attorneys{
       width: 250px; 
       height: 300px; 
-      background-color: red;
+      /* background-color: red; */
+      display: flex;
       margin-left: 25px;
       margin-top: 30px;
+}
+
+.attorneys:hover{
+      cursor: pointer;
+      transition: 1s;
+      filter: grayscale(100%);
+}
+
+#headshot1{
+      background-image: url(../images/john.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* filter: grayscale(100%); */
+}
+
+#headshot2{
+      background-image: url(../images/sarah.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+#headshot3{
+      background-image: url(../images/lexi.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+#headshot4{
+      background-image: url(../images/lee.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
 }
 
 
@@ -465,6 +502,11 @@ hr{
       }
 
       /* End of intro */
+
+      #membersIntro2{
+            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0) 90%) !important;
+            color: white;
+      }
 
       
 }
