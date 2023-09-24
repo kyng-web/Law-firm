@@ -398,6 +398,14 @@ hr{
 }
 
 
+#teamButton{
+      width: max-content;
+      padding: 10px;
+      color: white;
+      border: 1px solid white;
+      background-color: transparent;
+}
+
 
 
 /* Media Query  */
