@@ -408,6 +408,13 @@ hr{
       margin-top: 30px;
 }
 
+.attorneys div{
+      margin-top: auto; 
+      margin-left: 10px; 
+      font-family: 'Antic Didone', serif;
+      color: white;
+}
+
 .attorneys:hover{
       cursor: pointer;
       transition: 1s;
@@ -548,6 +555,10 @@ hr{
 
       /* End of members intro2 section */
 
+      .team-explain{
+            margin-top: 20px;
+      }
+
       .attorneys-wrapper{
             width: 100%;
             /* background-color: pink; */
@@ -557,9 +568,9 @@ hr{
             display: block;
       }
 
-      .attorneys{
-            width: 300px;
-      }
+      /* .attorneys{
+            width: 250px;
+      } */
 
       #lastTeamColumn{
             display: none;
@@ -567,6 +578,24 @@ hr{
 
       #moreAttorneys{
             display: block;
+      }
+
+      #headshot5{
+            /* width: 300px; */
+            background-color: rgb(33, 33, 33); 
+            opacity: 0.7;
+            font-family: 'Raleway', sans-serif;
+      }
+
+      #headshot5 div{
+            margin: auto; 
+            margin-left: 30% !important;
+            /* margin-left: 10px; */
+      }
+
+      #headshot5:hover{
+            transition: 0.7s;
+            opacity: 1;
       }
 
       #attoreysHeader{
@@ -583,6 +612,8 @@ hr{
       .team-explain{
             display: none;
       }
+
+      /* end of team section */
 }
 
 @media screen and (max-width: 840px){
