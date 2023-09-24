@@ -127,7 +127,7 @@ hr{
       height: max-content; 
       background-color: rgba(0, 0, 0, 0.19); 
       padding: 25px;
-      margin-top: 11%;      
+      margin-top: 5%;      
       margin-left: 50px;
       font-family: 'Antic Didone', serif;
       float: left;
@@ -181,7 +181,7 @@ hr{
       background-size: cover;
       background-color: #f8f8f8; 
       width: 100%; 
-      height: 100vh;
+      height: 110vh;
 }
 
 .intro-wrapper{
@@ -202,28 +202,28 @@ hr{
       float: left; 
       margin-left: 30px; 
       margin-top: 10%;
-      box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+      /* box-shadow: 8px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .intro-img2{
       width: 25%; 
       height: 500px; 
-      background-image: url(../images/intro2.jpg);
+      background-image: url(../images/build.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       float: left; 
       margin-left: 29px; 
       margin-top: 5%;
-      box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+      /* box-shadow: 8px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .introduction{
       width: 43%; 
       height: max-content; 
       margin-top: 10%;
-      /* font-family: 'Antic Didone', serif; */
-      font-family: 'Raleway', sans-serif;;
-      /* font-weight: bold; */
+      font-family: 'Antic Didone', serif;
+      /* font-family: 'Raleway', sans-serif;; */
+      font-weight: bold;
       float: right;
 }
 
@@ -231,6 +231,7 @@ hr{
       text-decoration: none;
       color: black;
       font-size: 17px;
+      /* font-weight: bolder; */
 }
 
 #readMoreButton{
