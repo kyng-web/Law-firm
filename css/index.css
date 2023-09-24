@@ -384,6 +384,7 @@ hr{
 #teamButton:hover{
       transition: 1s !important;
       color: rgb(246, 214, 154) !important;
+      border: 1px solid black;
       /* box-shadow: inset 300px 0 0 0 black; */
 }
 
@@ -391,10 +392,12 @@ hr{
       width: 40%; 
       height: 700px; 
       float: left; 
-      background-color: ;
+      /* background-color: ; */
 }
 
-
+#attoreysHeader{
+      display: none;
+}
 
 .attorneys{
       width: 250px; 
@@ -440,6 +443,10 @@ hr{
       background-position: center;
 }
 
+#moreAttorneys{
+      display:none;
+}
+
 
 
 
@@ -454,7 +461,7 @@ hr{
             width: 55%;
       }
 
-      /* End o fteam section */
+      /* End of team section */
 }
 
 @media screen and (max-width: 991px){
@@ -530,6 +537,52 @@ hr{
       .intro-img2{
             margin-left: 10px;
       }
+
+
+      /* End of introduction section */
+
+      #membersIntro2{
+            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0) 90%) !important;
+            color: white;
+      }
+
+      /* End of members intro2 section */
+
+      .attorneys-wrapper{
+            width: 100%;
+            /* background-color: pink; */
+      }
+
+      #attoreysHeader{
+            display: block;
+      }
+
+      .attorneys{
+            width: 300px;
+      }
+
+      #lastTeamColumn{
+            display: none;
+      }
+
+      #moreAttorneys{
+            display: block;
+      }
+
+      #attoreysHeader{
+            width: 100%;
+            height: 40px;
+            /* background-color: pink; */
+            text-align: center;
+      }
+
+      #attorneysTable{
+            margin: 0 auto;
+      }
+
+      .team-explain{
+            display: none;
+      }
 }
 
 @media screen and (max-width: 840px){
@@ -597,6 +650,22 @@ hr{
 
       .case-arrows{
             font-size: 19px;
+      }
+
+      /* End of firm practice section */
+
+      .attorneys-wrapper{
+            /* background-color: red; */
+      }
+
+      #attorneysTable{
+            width: 100%;
+            /* background-color: pink; */
+      }
+
+      .attorneys{
+            margin-left: 15px;
+            width: 90%;
       }
 }
 
