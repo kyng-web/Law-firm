@@ -454,6 +454,23 @@ hr{
       display:none;
 }
 
+/* End of Team */
+
+.media-wrapper{
+      width: 100%; 
+      height: 100%; 
+      background-color: red; 
+      display: flex;
+}
+
+.media-articles{
+      width: 30%; 
+      height: 100%; 
+      background-color: black; 
+      float: left; 
+      margin: 0 auto;
+}
+
 
 
 
@@ -466,6 +483,10 @@ hr{
 
       .attorneys-wrapper{
             width: 53%;
+      }
+
+      .team-extra{
+            display: none;
       }
 
       /* End of team section */
