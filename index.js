@@ -85,4 +85,6 @@ const showSlides = (n) => {
 
 showSlides(slideIndex);
 
+// End firms practices
+
 
