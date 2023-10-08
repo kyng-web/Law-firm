@@ -460,6 +460,7 @@ hr{
       width: 100%; 
       height: 750px; 
       background-color: #f7f7f7;
+      /* float: left; */
       /* display: flex; */
       /* padding-bottom: 50px !important; */
 }
@@ -542,6 +543,22 @@ hr{
 .news img{
       max-width: 100%; 
       max-height: 100%;
+}
+
+.media-button{
+      width: 30%;
+      padding: 3px;
+      color: black;
+      font-family: 'Antic Didone', serif;
+      border: 1px solid black;
+      background-color: transparent;
+}
+
+.media-button:hover{
+      transition: 1s;
+      border: 1px solid black; 
+      color: rgb(246, 214, 154);
+      box-shadow: inset 300px 0 0 0 black;
 }
 
 /* End of Media */
@@ -728,6 +745,10 @@ hr{
       }
 
       /* end of team section */
+
+      .media-container{
+            height: max-content;
+      }
 
       .media-articles{
             margin-left: 0;
