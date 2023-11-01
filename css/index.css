@@ -156,13 +156,15 @@ hr{
       height: 130px; 
       /* background-color: rgb(226, 226, 226);  */
       background-image: linear-gradient(to bottom, rgb(226, 226, 226), transparent 90%) !important;
+
 }
 
 #membersIntro2{
       width: 100%; 
-      height: 130px; 
+      height: 100px; 
       /* background-color: rgb(226, 226, 226);  */
       background-image: linear-gradient(to bottom, transparent, rgb(247, 247, 247) 90%) !important;
+      float: left;
 }
 
 .responsive-members{
@@ -356,6 +358,7 @@ hr{
       width: 100%; 
       height: 110vh; 
       background-color: black;
+      float: left;
 }
 
 .team-explain{
@@ -393,6 +396,7 @@ hr{
       height: 700px; 
       float: left; 
       /* background-color: ; */
+      padding-inline-start: 50px;
 }
 
 #attoreysHeader{
@@ -563,6 +567,24 @@ hr{
 
 /* End of Media */
 
+.choose-conatiner{
+      width: 100%; 
+      height: 700px;
+       background-color: pink; 
+      display: flex;
+      background-image: url(../images/judge.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-position: center; */
+}
+
+.choose-wrapper{
+      width: 60%; 
+      height: 100%; 
+      background-color: black; 
+      float: left; 
+      margin-left: auto;
+}
 
 /* Media Query  */
 
@@ -680,19 +702,29 @@ hr{
       /* End of introduction section */
 
       #membersIntro2{
-            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0) 90%) !important;
+            width: 100%;
+            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0) 100%) !important;
+            border: none;
             color: white;
       }
 
       /* End of members intro2 section */
 
+      .team-wrapper{
+            height: max-content;
+            /* background-color: pink; */
+            padding-bottom: 30px;
+      }
+
       .team-explain{
+            display: none;
             margin-top: 20px;
       }
 
       .attorneys-wrapper{
             width: 100%;
             /* background-color: pink; */
+            height: 100%;
       }
 
       #attoreysHeader{

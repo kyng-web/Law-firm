@@ -86,5 +86,17 @@ const showSlides = (n) => {
 showSlides(slideIndex);
 
 // End firms practices
+ 
+const pope = () => {
+      let div = document.getElementById('exp');
+      let box = document.getElementById('choosing')
 
+      div.addEventListener('click', () => {
+            // div.style.height = ''
+            box.style.display = 'none';
+      })
+      // console.log(div, box);
+}
+
+pope();
 
