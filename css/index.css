@@ -591,11 +591,15 @@ hr{
       height: 50%; 
       background-color: ; 
       margin-top: 70px !important; 
-      display: grid; 
+      /* display: grid; 
       row-gap: 30px;
       column-gap: 10px; 
-      grid-template-columns: auto auto auto; 
+      grid-template-columns: auto auto auto;  */
       margin: 0 auto; 
+}
+
+input, label {
+      display:block;
 }
 
 .choose-item{
@@ -621,12 +625,12 @@ hr{
 .choose-item-body{
       /* width: 50%; */
       /* background-color: pink; */
-      display: none;
-}
-
-.choose-item .active + .choose-item-body{
       display: block;
 }
+
+/* .choose-item .active + .choose-header{
+      display: none;
+} */
 
 .choose-skills{
       width: 100%; 
