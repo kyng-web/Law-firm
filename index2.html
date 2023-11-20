@@ -420,35 +420,43 @@
       <div class="choose-conatiner">
             <div class="choose-wrapper">
                   <section style="width: 70%; height: max-content; margin: 0 auto; background-color: ;
-                  margin-top: 100px; ">
+                  margin-top: 50px; ">
                         <!-- <h1 style="font-family: 'Cinzel', serif; color: #ffffff; border-bottom: 1px solid rgb(246, 214, 154); width: max-content;">Why Us</h1> -->
                         <h4 class="text-light" style="font-family: 'Antic Didone', serif; font-size: 30px; text-align: center;">Skills that are shown to be the best attorneys on the East Coast.</h4>
                   </section>
 
-                  <section class="choose-display" style="background-color: yellow;">
-                        <form>
-                              <div style="width: 100%;  height: max-content; background-color: red; float: ;">
+                  <section class="choose-display" style="background-color: ;">
+                        <form style="margin-left: 107px;">
+                              <div style="width: 100%;  height: max-content; background-color:">
                                     <label for="name">Name*</label>
-                                    <input type="text" id="name" style="width: 100%;">
+                                    <input type="text" id="name">
                               </div>
-                              <div style="width: 100%;  height: max-content; background-color: pink; float: ;">
+                              <div style="width: 100%;  height: max-content; background-color: ">
                                     <label for="tel">Phone Number*</label>
                                     <input type="tel" id="tel" >
                               </div>
-                              <div style="width: 100%;  height: max-content; background-color: pink; float: ;">
+                              <div style="width: 100%;  height: max-content; background-color: ">
                                     <label for="email">Email Address*</label>
                                     <input type="email" id="email" >
                               </div>
-                              <div style="width: 100%;  height: max-content; background-color: pink; float: ;">
+                              <div style="width: 100%;  height: max-content; background-color: ">
                                     <label for="practice">Practice Area*</label>
-                                    <input type="text" id="practice" >
+                                    <!-- <input type="text" id="practice"> -->
+                                    <select id="practice" name="practice" style="display: block;">
+                                          <option value="business">Business Law</option>
+                                          <option value="bank">Bankruptcy Law</option>
+                                          <option value="criminal">Criminal Law</option>
+                                          <option value="tax">Tax Law</option>
+                                          <option value="family">Family Law</option>
+                                    </select>
                               </div>
-                              <div style="width: 100%;  height: max-content; background-color: pink; float: ;">
+                              <div style="width: 100%;  height: max-content; background-color: ; margin-bottom: 10px;">
                                     <label for="case">Case Description*</label>
                                     <span style="display: block;">
-                                          <textarea name="case" id="case" cols="30" rows="10"></textarea>
+                                          <textarea name="case" id="case" cols="" rows="6" style="width: 80%;"></textarea>
                                     </span>
                               </div>
+                              <button id="const-button">Free Constolation</button>
                         </form>
                         
                           
